@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Dog API</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="headbox">
+            <div id="drop">
+                <select name="breed" id="breed">
+                    <option value="default">------ Choose the breed ------</option>
+                    <option value="affenpinscher">affenpinscher</option>
+                    <option value="airedale">airedale</option>
+                    <option value="akita">akita</option>
+                    <option value="appenzeller">appenzeller</option>
+                    <option value="beagle">beagle</option>
+                </select>
+            </div>
+            <div id="dropbtn">
+                <button id="getImage">Get Image</button>
+            </div>
+        </div>
+
+        <div id="imagebox">
+            <div id="imge">
+                <img id="displayimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Empty.png/640px-Empty.png" alt="">
+            </div>
+            <div id="imgebtn">
+                <button id="Nextimg">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
