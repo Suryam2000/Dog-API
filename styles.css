@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#headbox{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+}
+
+#drop{
+    width: 30%;
+}
+
+#drop select{
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#dropbtn{
+    width: 15%;
+}
+
+#dropbtn button{
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#imagebox{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imge{
+    width: 35%;
+    height: 60%;
+}
+
+#imge img{
+    width: 100%;
+    height: 100%;
+}
+
+#imgebtn{
+    width: 10%;
+}
+
+#imgebtn button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
